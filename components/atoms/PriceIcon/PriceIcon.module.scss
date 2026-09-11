@@ -1,0 +1,7 @@
+@use '@/styles/tokens/colors' as *;
+
+.icon {
+  color: $color-primary;
+  font-size: 0.75rem;
+  line-height: 1;
+}

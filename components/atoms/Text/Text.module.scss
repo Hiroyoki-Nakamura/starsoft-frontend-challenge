@@ -1,0 +1,25 @@
+@use '@/styles/tokens/colors' as *;
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: $color-white;
+}
+
+.body {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: $color-white;
+}
+
+.muted {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: $color-text-muted;
+}
+
+.price {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: $color-white;
+}

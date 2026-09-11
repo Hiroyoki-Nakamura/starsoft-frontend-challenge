@@ -1,0 +1,26 @@
+@use '@/styles/tokens/colors' as *;
+@use '@/styles/tokens/spacing' as *;
+
+.button {
+  width: 100%;
+  height: 66px;
+  padding: 10px 26px;
+  border-radius: $border-radius-base;
+  color: $color-white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: background-color 300ms ease-out;
+}
+
+.primary {
+  background-color: $color-primary;
+}
+
+.secondary {
+  background-color: $color-bg-button-secondary;
+}
